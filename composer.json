@@ -3,6 +3,7 @@
     "description": ":package_description",
     "license": "MIT",
     "version": "1.0.6",
+    "minimum-stability": "stable",
     "authors": [
         {
             "name": "Author Name",
