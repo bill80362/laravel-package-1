@@ -7,6 +7,6 @@ class BillPackage
     // Build wonderful things
     public function version(): string
     {
-        return "1.0.1";
+        return "1.0.2";
     }
 }
