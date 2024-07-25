@@ -1,0 +1,34 @@
+{
+    "name": "bill-vendor/bill-package",
+    "description": ":package_description",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Author Name",
+            "email": "author@email.com",
+            "homepage": "http://author.com"
+        }
+    ],
+    "homepage": "https://github.com/bill-vendor/bill-package",
+    "keywords": ["Laravel", "BillPackage"],
+    "autoload": {
+        "psr-4": {
+            "BillVendor\\BillPackage\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BillVendor\\BillPackage\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BillVendor\\BillPackage\\BillPackageServiceProvider"
+            ],
+            "aliases": {
+                "BillPackage": "BillVendor\\BillPackage\\Facades\\BillPackage"
+            }
+        }
+    }
+}
